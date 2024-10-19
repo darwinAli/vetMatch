@@ -10,42 +10,55 @@
 <body>
     
     <div class="fondo">
-    <h2 class="mb-4" style="margin-top: 2%;">Formulario de Solicitud de Servicios Veterinarios</h2>
-    <form style="margin-left: 37%" >
-       
-        <div class="mb-3 col-5">
-          <label for="fullName" class="form-label">Nombre Completo</label>
-          <input type="text" class="form-control" id="fullName" placeholder="Ingresa tu nombre completo" required>
-        </div>
+        <h2 class="mb-4 text-center" style="margin-top: 2%;">Formulario de Solicitud de Servicios Veterinarios</h2>
+        <form class="container">
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="fullName" class="form-label">Nombre Completo</label>
+              <input type="text" class="form-control" id="fullName" placeholder="Ingresa tu nombre completo" required>
+            </div>
+          </div>
       
-        <div class="mb-3 col-5">
-          <label for="email" class="form-label">Correo Electrónico</label>
-          <input type="email" class="form-control" id="email" placeholder="ejemplo@correo.com" required>
-        </div>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="email" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="email" placeholder="ejemplo@correo.com" required>
+            </div>
+          </div>
       
-        <div class="mb-3 col-5">
-          <label for="phone" class="form-label">Teléfono de Contacto</label>
-          <input type="tel" class="form-control" id="phone" placeholder="Ingrese su número de teléfono" required>
-        </div>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="phone" class="form-label">Teléfono de Contacto</label>
+              <input type="tel" class="form-control" id="phone" placeholder="Ingrese su número de teléfono" required>
+            </div>
+          </div>
       
-        <div class="mb-3 col-5">
-          <label for="address" class="form-label">Dirección</label>
-          <input type="text" class="form-control" id="address" placeholder="Ingrese su dirección" required>
-        </div>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="address" class="form-label">Dirección</label>
+              <input type="text" class="form-control" id="address" placeholder="Ingrese su dirección" required>
+            </div>
+          </div>
       
-        <div class="mb-3 col-5">
-          <label for="serviceType" class="form-label">¿Qué buscas?</label>
-          <select class="form-select" id="serviceType" aria-label="Selecciona un servicio" required>
-            <option selected disabled>Seleccione una opción</option>
-            <option value="veterinarios">Veterinarios</option>
-            <option value="clientes">Clientes</option>
-          </select>
-        </div>
-       <div class="col-5">
-        <button type="submit" class="btn btn-primary ">Enviar</button>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="serviceType" class="form-label">¿Qué buscas?</label>
+              <select class="form-select" id="serviceType" aria-label="Selecciona un servicio" required>
+                <option selected disabled>Seleccione una opción</option>
+                <option value="veterinarios">Veterinarios</option>
+                <option value="clientes">Clientes</option>
+              </select>
+            </div>
+          </div>
+      
+          <div class="row">
+            <div class="col-md-6">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </form>
       </div>
-      </form>
-    </div>
+      
 
 
 

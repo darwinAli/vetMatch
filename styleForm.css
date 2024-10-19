@@ -1,0 +1,30 @@
+
+body {
+    /* background-color: #f8f9fa; Color de fondo claro */
+    background-image: url('img/fondoPantalla.jpg');
+}
+
+
+h2 {
+    text-align: center; /* Centrar el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    color: #38393a; /* Color azul para el título */
+}
+.btn-primary {
+    width: 100%; /* Botón ocupa todo el ancho */
+}
+.form-label {
+    font-weight: bold; /* Etiquetas en negrita */
+}
+.fondo {
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    padding: 30px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra para el contenedor */
+    margin: 50px auto; /* Centra el contenedor en la página */
+    width: 50%; /* Ancho del contenedor */
+}
+
+.form-control, .form-select {
+    width: 100%; /* Hace que los inputs y selects ocupen todo el ancho del contenedor */
+}

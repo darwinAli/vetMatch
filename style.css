@@ -1,0 +1,19 @@
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; /* Para darle un estilo más negrita */
+  }
+  
+  /* Aplica un efecto de cambio de color al pasar el cursor por encima de los enlaces del navbar */
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #f8f9fa;  /* Cambia el fondo del enlace cuando se hace hover */
+    color: #007bff;  /* Cambia el color del texto cuando se hace hover */
+    transition: background-color 0.3s ease, color 0.3s ease;  /* Efecto de transición suave */
+    border-radius: 5px;  /* Agrega bordes redondeados al efecto */
+}
+
+.carousel-item img {
+    width: 100%;        /* Las imágenes ocuparán el ancho completo del contenedor */
+    height: 800px;      /* Establece una altura fija para todas las imágenes */
+    object-fit: cover;  /* Hace que la imagen se recorte para que encaje en el espacio definido sin deformarse */
+}
+
